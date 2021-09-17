@@ -8,12 +8,10 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
-import SogCountTo from "../plugins/sog-count-to/src/SogCountTo.vue";
 export default {
   name: "App",
   components: {
     HelloWorld,
-    SogCountTo,
   },
 };
 </script>

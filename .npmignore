@@ -1,6 +1,6 @@
 .DS_Store
 node_modules/
-examples/
+src/
 packages/
 public/
 vue.config.js
