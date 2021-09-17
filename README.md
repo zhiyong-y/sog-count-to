@@ -1,24 +1,38 @@
-# sog-count-to
+# SogCountTo
 
-## Project setup
-```
-npm install
-```
+> 数字增长或降低时增加动画效果
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+## 安装
+
+``` bash
+$ npm install sog-count-to -S
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+## 使用
+
+在 `main.js` 文件中引入插件并注册
+
+``` bash
+# main.js
+import SogCountTo from 'sog-count-to'
+Vue.use(SogCountTo)
 ```
 
-### Lints and fixes files
-```
-npm run lint
+在项目中用使用 SogCountTo
+
+
+```js
+<template>
+  <SogCountTo :startVal="0" :endVal="1000" />
+</template>
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 特点
+
+
+## 参数
+
+> 待更新
+
+
+## 事件
