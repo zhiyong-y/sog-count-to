@@ -1,6 +1,6 @@
 {
   "name": "admin-count-to",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "基于PanJiaChen大佬的组件修改，实现数字增长或降低的时候增加动画效果",
   "private": false,
   "main": "lib/sog-count-to.umd.min.js",
