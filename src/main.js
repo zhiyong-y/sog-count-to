@@ -1,7 +1,7 @@
 import Vue from "vue";
 import App from "./App.vue";
 
-import SogCountTo from "../packages/index";
+import SogCountTo from "../src/plugins/index";
 Vue.use(SogCountTo);
 
 Vue.config.productionTip = false;
