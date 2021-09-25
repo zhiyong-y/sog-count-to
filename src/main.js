@@ -1,8 +1,8 @@
 import Vue from "vue";
 import App from "./App.vue";
 
-import SogCountTo from "../src/plugins/index";
-Vue.use(SogCountTo);
+import SogCalendar from "@/plugins/index";
+Vue.use(SogCalendar);
 
 Vue.config.productionTip = false;
 

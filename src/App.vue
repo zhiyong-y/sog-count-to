@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
+    <SogCalendar style="margin: 0 auto"/>
+
     <HelloWorld msg="Welcome to Your Vue.js App" />
-    <SogCountTo :startVal="0" :endVal="999" />
   </div>
 </template>
 

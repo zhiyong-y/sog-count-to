@@ -1,8 +1,8 @@
 // 导入单个组件
-import SogCountTo from "./sog-count-to/index";
+import SogCalendar from "./sog-calendar/index";
 
 // 以数组的结构保存组件，便于遍历
-const components = [SogCountTo];
+const components = [SogCalendar];
 
 // 定义 install 方法
 const install = function (Vue) {

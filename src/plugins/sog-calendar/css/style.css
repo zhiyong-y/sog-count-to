@@ -1,0 +1,20 @@
+:root {
+  --border-color: #e3e3e3;
+  --title-font-size: 20px;
+}
+* {
+  box-sizing: border-box;
+  position: relative;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1;
+}
